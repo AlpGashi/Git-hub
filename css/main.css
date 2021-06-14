@@ -1,0 +1,40 @@
+.container {
+  background: #eee;
+  width: 1000px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-rows: repeat(2, 150px);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.item {
+  padding: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.red {
+  background: rgb(173, 29, 29);
+}
+
+.black {
+  background: #000;
+}
+
+.blue {
+  background: rgb(16, 78, 160);
+}
+
+.green {
+  background: rgb(40, 146, 81);
+}
+
+.pink {
+  background: rgb(185, 54, 142);
+}
+
+.yellow {
+  background: rgb(223, 223, 22);
+}
